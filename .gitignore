@@ -1,0 +1,37 @@
+# C++ build artifacts
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+*.dll
+*.so
+
+# Build directories
+build/
+out/
+bin/
+Debug/
+Release/
+x64/
+x86/
+
+# IDE and editor files
+.vs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# OS files
+.DS_Store
+Thumbs.db
